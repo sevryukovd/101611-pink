@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дмитрий Севрюков](https://up.htmlacademy.ru/adaptive/6/user/101611).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Комаров](https://htmlacademy.ru/profile/id50630).
 
 ---
 
