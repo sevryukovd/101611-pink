@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
 
-  </body>
+<body>
+  <header class="page-header">
+    <div class="page-header__logo">
+      <img src="http://placehold.it/75x22" width="75" height="22" alt="Pink">
+    </div>
+    <nav class="main-nav">
+      <span class="main-nav__toggle main-nav__toggle--closed"> Открыть меню</span>
+      <div class="main-nav__wrapper main-nav__wrapper--closed">
+        <ul class="main-nav__items">
+          <li class="main-nav__item"><a href="#">Информация</a></li>
+          <li class="main-nav__item"><a href="#">Возможности</a></li>
+          <li class="main-nav__item"><a href="#">Отзывы</a></li>
+          <li class="main-nav__item"><a href="#">Стоимость</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h2 class="page-header__slogan">Взгляните на жизнь иначе!</h2>
+    <img class="page-header__image" src="http://placehold.it/320x313" width="320" height="313" alt="Hand">
+  </header>
+
+  <section class="dawnload">
+    <div class="dawnload__wrapper">
+      <a class="dawnload__link" href="#">Скачать приложение</a>
+      <div class="dawnload__logos">
+        <img class="dawnload__logo-apple" src="http://placehold.it/47x56" width="47" height="56" alt="apple">
+        <img class="dawnload__logo-android" src="http://placehold.it/43x47" width="46" height="47" alt="android">
+        <img class="dawnload__logo-win" src="http://placehold.it/44x41" width="44" height="41" alt="win">
+      </div>
+      <p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="advantages__wrapper">
+      <header class="advantages__header">
+        <h2 class="advantages__slogan">Устали от серости мегаполиса?</h2>
+        <h2 class="advantages__slogan">Нам есть, что вам предложить!</h2>
+      </header>
+      <div class="advantages__items">
+        <div class="advantages__item">
+          <h3 class="advantages__title">Поднимает настроение</h3>
+          <p>Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
+        </div>
+        <div class="advantages__item">
+          <h3 class="advantages__title">Меняет мир вокруг</h3>
+          <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        </div>
+        <div class="advantages__item">
+          <h3 class="advantages__title">Заводит новых друзей</h3>
+          <p>Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+        </div>
+        <img class="advantages__image" src="http://placehold.it/157x320" width="157" height="320" alt="iphone screen">
+      </div>
+    </div>
+  </section>
+  <section class="reviews">
+    <div class="reviews__wrapper">
+      <h3 class="reviews__title">Николай Петров</h3>
+      <p>«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+      <input class="reviews__switcher" type="radio" name="reviews" id="reviews-radio-1" checked>
+      <input class="reviews__switcher" type="radio" name="reviews" id="reviews-radio-2">
+      <input class="reviews_switcher" type="radio" name="reviews" id="reviews-radio-3">
+    </div>
+  </section>
+  <section class="price">
+    <header class="price__header">
+      <span>Хит</span>
+      <div class="price__value">
+        <span>Стандарт</span>
+        <span>3,99 USD</span>
+      </div>
+    </header>
+    <div class="price__items">
+      <div class="price__item">
+        <span>Розовый фильтр</span>
+        <img src="http://placehold.it/31x21" width="31" height="21" alt="none">
+      </div>
+      <div class="price__item">
+        <span>Смайлики</span>
+        <img src="http://placehold.it/31x21" width="31" height="21" alt="none">
+      </div>
+      <div class="price__item">
+        <span>Комментарии</span>
+        <img src="http://placehold.it/31x21" width="31" height="21" alt="check">
+      </div>
+    </div>
+    <input class="price__switcher" type="radio" name="price" id="price-radio-1" >
+    <input class="price__switcher" type="radio" name="price" id="price-radio-2" checked>
+    <input class="price_switcher" type="radio" name="price" id="price-radio-3">
+  </section>
+
+
+
+
+
+
+  <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+
+</body>
+
 </html>
