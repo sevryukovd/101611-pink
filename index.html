@@ -9,100 +9,141 @@
 <body>
   <header class="page-header">
     <div class="page-header__logo">
-      <img src="http://placehold.it/75x22" width="75" height="22" alt="Pink">
+      <h1>Логотип</h1>
     </div>
     <nav class="main-nav">
-      <span class="main-nav__toggle main-nav__toggle--closed"> Открыть меню</span>
+      <span class="main-nav__toggle main-nav__toggle--closed">Открыть меню</span>
       <div class="main-nav__wrapper main-nav__wrapper--closed">
         <ul class="main-nav__items">
-          <li class="main-nav__item"><a href="#">Информация</a></li>
-          <li class="main-nav__item"><a href="#">Возможности</a></li>
-          <li class="main-nav__item"><a href="#">Отзывы</a></li>
-          <li class="main-nav__item"><a href="#">Стоимость</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#">Информация</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#">Возможности</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#">Отзывы</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#">Стоимость</a></li>
         </ul>
       </div>
     </nav>
-    <h2 class="page-header__slogan">Взгляните на жизнь иначе!</h2>
-    <img class="page-header__image" src="http://placehold.it/320x313" width="320" height="313" alt="Hand">
   </header>
 
-  <section class="dawnload">
-    <div class="dawnload__wrapper">
-      <a class="dawnload__link" href="#">Скачать приложение</a>
-      <div class="dawnload__logos">
-        <img class="dawnload__logo-apple" src="http://placehold.it/47x56" width="47" height="56" alt="apple">
-        <img class="dawnload__logo-android" src="http://placehold.it/43x47" width="46" height="47" alt="android">
-        <img class="dawnload__logo-win" src="http://placehold.it/44x41" width="44" height="41" alt="win">
+  <main>
+    <section class="page-slogan">
+      <h2 class="page-slogan__title">Взгляните на жизнь иначе!</h2>
+      <img class="page-slogan__image" src="http://placehold.it/320x313" width="320" height="313" alt="Hand">
+    </section>
+    <section class="download">
+      <a class="download__link" href="#">Скачать приложение</a>
+      <div class="download__logos">
+        <a class="download__social-link" href="http://www.apple.com/ru/itunes/"><img class="download__logo-apple" src="http://placehold.it/47x56" width="47" height="56" alt="apple"></a>
+        <a class="download__social-link" href="https://play.google.com/store"><img class="download__logo-android" src="http://placehold.it/43x47" width="46" height="47" alt="android"></a>
+        <a class="download__social-link" href="https://www.microsoft.com/ru-ru/store/apps"><img class="download__logo-win" src="http://placehold.it/44x41" width="44" height="41" alt="win"></a>
       </div>
       <p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-    </div>
-  </section>
-  <section class="advantages">
-    <div class="advantages__wrapper">
+    </section>
+    <section class="advantages">
       <header class="advantages__header">
-        <h2 class="advantages__slogan">Устали от серости мегаполиса?</h2>
-        <h2 class="advantages__slogan">Нам есть, что вам предложить!</h2>
+        <h2 class="advantages__slogan">
+            <span>Устали от серости мегаполиса?</span>
+            <span>Нам есть, что вам предложить!</span>
+          </h2>
       </header>
-      <div class="advantages__items">
-        <div class="advantages__item">
+      <ul class="advantages__items">
+        <li class="advantages__item">
           <h3 class="advantages__title">Поднимает настроение</h3>
-          <p>Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
-        </div>
-        <div class="advantages__item">
+          <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        </li>
+        <li class="advantages__item">
           <h3 class="advantages__title">Меняет мир вокруг</h3>
           <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-        </div>
-        <div class="advantages__item">
+        </li>
+        <li class="advantages__item">
           <h3 class="advantages__title">Заводит новых друзей</h3>
           <p>Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+        </li>
+      </ul>
+      <img class="advantages__image" src="http://placehold.it/157x320" width="157" height="320" alt="iphone screen">
+    </section>
+    <section class="reviews">
+      <blockquote class="reviews__item">
+        <cite class="reviews__auhor-name">Николай Петров</cite>
+        <p>Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
+      </blockquote>
+      <blockquote class="reviews__item">
+        <cite class="reviews__auhor-name">Николай Петров</cite>
+        <p>Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
+      </blockquote>
+      <blockquote class="reviews__item">
+        <cite class="reviews__auhor-name">Николай Петров</cite>
+        <p>Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
+      </blockquote>
+    </section>
+    <article class="price-table">
+      <header class="price-table__header">
+        <ul>
+          <li></li>
+          <li>База 1,99 USD</li>
+          <li>Стандарт 3,99 USD</li>
+          <li>Анлим 9,99 USD</li>
+        </ul>
+      </header>
+      <section class="price-table__content">
+        <ul>
+          <li>Розовый фильтр</li>
+          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
+          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
+          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
+        </ul>
+      </section>
+      <section class="price-table__content">
+        <ul>
+          <li>Смайлики</li>
+          <li><img class="price-table__no-image" src="http://placehold.it/27x26" width="27" height="26" alt="no"></li>
+          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
+          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
+        </ul>
+      </section>
+      <section class="price-table__content">
+        <ul>
+          <li>Комментарии</li>
+          <li><img class="price-table__no-image" src="http://placehold.it/27x26" width="27" height="26" alt="no"></li>
+          <li><img class="price-table__no-image" src="http://placehold.it/27x26" width="27" height="26" alt="no"></li>
+          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer class="page-footer">
+    <section class="index-footer">
+      <div class="index-footer__wrapper">
+        <div class="index-footer__contacts">
+          <h2 class="index-footer__title">Остались вопросы? Свяжитесь с нами!</h2>
+          <h3>Звоните:</h3>
+          <a class="index-footer__tel" href="tel:+78125556666">+7 (812) 555-66-66</a>
+          <h3>Пишите:</h3>
+          <a class="index-footer__email" href="page-footer_-mail">mail@htmlacademy.ru</a>
+          <h3>Приезжайте в гости:</h3>
+          <p>ул. Большая Конюшенная, 19/8</p>
         </div>
-        <img class="advantages__image" src="http://placehold.it/157x320" width="157" height="320" alt="iphone screen">
+        <div class="index-footer__map>">Карта
+        </div>
       </div>
-    </div>
-  </section>
-  <section class="reviews">
-    <div class="reviews__wrapper">
-      <h3 class="reviews__title">Николай Петров</h3>
-      <p>«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-      <input class="reviews__switcher" type="radio" name="reviews" id="reviews-radio-1" checked>
-      <input class="reviews__switcher" type="radio" name="reviews" id="reviews-radio-2">
-      <input class="reviews_switcher" type="radio" name="reviews" id="reviews-radio-3">
-    </div>
-  </section>
-  <section class="price">
-    <header class="price__header">
-      <span>Хит</span>
-      <div class="price__value">
-        <span>Стандарт</span>
-        <span>3,99 USD</span>
+    </section>
+    <section class="page-footer__social">
+      <div class="page-footer__logo">
+        <img src="http://placehold.it/147x40" width="147" height="40" alt="Pink">
       </div>
-    </header>
-    <div class="price__items">
-      <div class="price__item">
-        <span>Розовый фильтр</span>
-        <img src="http://placehold.it/31x21" width="31" height="21" alt="none">
+      <div class="social-links">
+        <ul class="social-links__lists">
+          <li class="social-links__list"><a class="social-links__link social-links__link--tw" href="https://twitter.com/htmlacademy_ru">Мы в Твиттере</a></li>
+          <li class="social-links__list"><a class="social-links__link social-links__link--fb" href="https://www.facebook.com/htmlacademy/">Мы в Фейсбуке</a></li>
+          <li class="social-links__list"><a class="social-links__link social-links__link--yt" href="https://www.youtube.com/user/htmlacademyru">Мы на Ютубе</a></li>
+        </ul>
       </div>
-      <div class="price__item">
-        <span>Смайлики</span>
-        <img src="http://placehold.it/31x21" width="31" height="21" alt="none">
-      </div>
-      <div class="price__item">
-        <span>Комментарии</span>
-        <img src="http://placehold.it/31x21" width="31" height="21" alt="check">
-      </div>
-    </div>
-    <input class="price__switcher" type="radio" name="price" id="price-radio-1" >
-    <input class="price__switcher" type="radio" name="price" id="price-radio-2" checked>
-    <input class="price_switcher" type="radio" name="price" id="price-radio-3">
-  </section>
-
-
-
-
-
-
-  <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+      <p class="page-footer__copyright">
+        Разработано:
+        <a class="page-footer__copyright-link btn" href="https://htmlacademy.ru">HTML Academy</a>
+      </p>
+    </section>
+  </footer>
 </body>
 
 </html>
