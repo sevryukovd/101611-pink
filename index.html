@@ -8,27 +8,21 @@
 
 <body>
   <header class="page-header">
-    <div class="page-header__logo">
-      <h1>Логотип</h1>
-    </div>
+    <h1 class="page-header__logo">Логотип</h1>
     <nav class="main-nav">
-      <span class="main-nav__toggle main-nav__toggle--closed">Открыть меню</span>
-      <div class="main-nav__wrapper main-nav__wrapper--closed">
-        <ul class="main-nav__items">
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Информация</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Возможности</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Отзывы</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Стоимость</a></li>
-        </ul>
-      </div>
+      <span class="main-nav__toggle">Открыть меню</span>
+      <ul class="main-nav__items">
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Информация</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Возможности</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Отзывы</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Стоимость</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="page-slogan">
-      <h2 class="page-slogan__title">Взгляните на жизнь иначе!</h2>
-      <img class="page-slogan__image" src="http://placehold.it/320x313" width="320" height="313" alt="Hand">
-    </section>
+  <main class="page-content">
+    <h2 class="page-content__slogan">Взгляните на жизнь иначе!</h2>
+    <img class="page-content__image" src="http://placehold.it/320x313" width="320" height="313" alt="Hand">
     <section class="download">
       <a class="download__link" href="#">Скачать приложение</a>
       <div class="download__logos">
@@ -41,9 +35,9 @@
     <section class="advantages">
       <header class="advantages__header">
         <h2 class="advantages__slogan">
-            <span>Устали от серости мегаполиса?</span>
-            <span>Нам есть, что вам предложить!</span>
-          </h2>
+          <span>Устали от серости мегаполиса?</span>
+          <span>Нам есть, что вам предложить!</span>
+        </h2>
       </header>
       <ul class="advantages__items">
         <li class="advantages__item">
@@ -75,40 +69,32 @@
         <p>Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
       </blockquote>
     </section>
-    <article class="price-table">
-      <header class="price-table__header">
-        <ul>
-          <li></li>
-          <li>База 1,99 USD</li>
-          <li>Стандарт 3,99 USD</li>
-          <li>Анлим 9,99 USD</li>
-        </ul>
-      </header>
-      <section class="price-table__content">
-        <ul>
-          <li>Розовый фильтр</li>
-          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
-          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
-          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
-        </ul>
-      </section>
-      <section class="price-table__content">
-        <ul>
-          <li>Смайлики</li>
-          <li><img class="price-table__no-image" src="http://placehold.it/27x26" width="27" height="26" alt="no"></li>
-          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
-          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
-        </ul>
-      </section>
-      <section class="price-table__content">
-        <ul>
-          <li>Комментарии</li>
-          <li><img class="price-table__no-image" src="http://placehold.it/27x26" width="27" height="26" alt="no"></li>
-          <li><img class="price-table__no-image" src="http://placehold.it/27x26" width="27" height="26" alt="no"></li>
-          <li><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></li>
-        </ul>
-      </section>
-    </article>
+    <table class="price-table">
+      <tr class="price-table__tr">
+        <th class="price-table__th"></th>
+        <th class="price-table__th">База 1,99 USD</th>
+        <th class="price-table__th">Стандарт 3,99 USD</th>
+        <th class="price-table__th">Анлим 9,99 USD</th>
+      </tr>
+      <tr class="price-table__tr">
+        <td class="price-table__td">Розовый фильтр</td>
+        <td class="price-table__td"><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></td>
+        <td class="price-table__td"><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></td>
+        <td class="price-table__td"><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></td>
+      </tr>
+      <tr class="price-table__tr">
+        <td class="price-table__td">Смайлики</td>
+        <td class="price-table__td"><img class="price-table__no-image" src="http://placehold.it/27x26" width="27" height="26" alt="no"></td>
+        <td class="price-table__td"><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></td>
+        <td class="price-table__td"><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></td>
+      </tr>
+      <tr class="price-table__tr">
+        <td class="price-table__td">Комментарии</td>
+        <td class="price-table__td"><img class="price-table__no-image" src="http://placehold.it/27x26" width="27" height="26" alt="no"></td>
+        <td class="price-table__td"><img class="price-table__no-image" src="http://placehold.it/27x26" width="27" height="26" alt="no"></td>
+        <td class="price-table__td"><img class="price-table__yes-image" src="http://placehold.it/31x21" width="31" height="21" alt="yes"></td>
+      </tr>
+    </table>
   </main>
 
   <footer class="page-footer">
@@ -123,14 +109,12 @@
           <h3>Приезжайте в гости:</h3>
           <p>ул. Большая Конюшенная, 19/8</p>
         </div>
-        <div class="index-footer__map>">Карта
+        <div class="index-footer__map">Карта
         </div>
       </div>
     </section>
     <section class="page-footer__social">
-      <div class="page-footer__logo">
-        <img src="http://placehold.it/147x40" width="147" height="40" alt="Pink">
-      </div>
+      <img class="page-footer__logo" src="http://placehold.it/147x40" width="147" height="40" alt="Pink">
       <div class="social-links">
         <ul class="social-links__lists">
           <li class="social-links__list"><a class="social-links__link social-links__link--tw" href="https://twitter.com/htmlacademy_ru">Мы в Твиттере</a></li>
