@@ -8,26 +8,20 @@
 
 <body>
   <header class="page-header">
-    <div class="page-header__logo">
-      <h1>Логотип</h1>
-    </div>
+    <h1 class="page-header__logo">Логотип</h1>
     <nav class="main-nav">
-      <span class="main-nav__toggle main-nav__toggle--closed">Открыть меню</span>
-      <div class="main-nav__wrapper main-nav__wrapper--closed">
-        <ul class="main-nav__items">
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Главная</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Фотографии</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Конкурс</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">HTML Academy</a></li>
-        </ul>
-      </div>
+      <span class="main-nav__toggle">Открыть меню</span>
+      <ul class="main-nav__items">
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Главная</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Фотографии</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Конкурс</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">HTML Academy</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="page-slogan">
-      <h2 class="page-slogan__title">Фотографии пользователей</h2>
-    </section>
+  <main class="page-content">
+    <h2 class="page-content__slogan">Фотографии пользователей</h2>
     <section class="photo-gallery">
       <div class="photo-gallery__slogan">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</div>
       <div class="photo-gallery__items">
@@ -36,14 +30,12 @@
             <img src="http://placehold.it/320x137" width="320" height="137" alt="Панорама">
           </div>
           <ul class="photo-gallery__photo-description">
-            <li><span class="photo-gallery__user-name">Анна</span></li>
-            <li><span class="photo-gallery__post-time">(5 минут назад)</span></li>
-            <li>
-              <p class="photo-gallery__description-text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую транслацию в перископе, задавайте свои вопросы!</p>
-            </li>
-            <li><span class="photo-gallery__like-icon">like</span></li>
-            <li><span class="photo-gallery__like">Нравится:</span></li>
-            <li><span class="photo-gallery__number-of-likes">215</span></li>
+            <li class="photo-gallery__user-name">Анна</li>
+            <li class="photo-gallery__post-time">(5 минут назад)</li>
+            <li class="photo-gallery__description-text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую транслацию в перископе, задавайте свои вопросы!</li>
+            <li class="photo-gallery__like-icon">like</li>
+            <li class="photo-gallery__like">Нравится:</li>
+            <li class="photo-gallery__number-of-likes">215</li>
           </ul>
         </article>
         <article class="photo-gallery__item">
@@ -51,14 +43,12 @@
             <img src="http://placehold.it/280x180" width="280" height="180" alt="Фотография">
           </div>
           <ul class="photo-gallery__photo-description">
-            <li><span class="photo-gallery__user-name">Левон</span></li>
-            <li><span class="photo-gallery__post-time">(5 часов назад)</span></li>
-            <li>
-              <p class="photo-gallery__description-text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-            </li>
-            <li><span class="photo-gallery__like-icon">like</span></li>
-            <li><span class="photo-gallery__like">Нравится:</span></li>
-            <li><span class="photo-gallery__number-of-likes">356</span></li>
+            <li class="photo-gallery__user-name">Левон</li>
+            <li class="photo-gallery__post-time">(5 часов назад)</li>
+            <li class="photo-gallery__description-text">Вчера он на луну летал, сегодня в руки к нам попал.</li>
+            <li class="photo-gallery__like-icon">like</li>
+            <li class="photo-gallery__like">Нравится:</li>
+            <li class="photo-gallery__number-of-likes">356</li>
           </ul>
         </article>
         <article class="photo-gallery__item">
@@ -66,14 +56,12 @@
             <img src="http://placehold.it/280x180" width="280" height="180" alt="Фотография">
           </div>
           <ul class="photo-gallery__photo-description">
-            <li><span class="photo-gallery__user-name">Антон</span></li>
-            <li><span class="photo-gallery__post-time">(12 часов назад)</span></li>
-            <li>
-              <p class="photo-gallery__description-text">Соседи будут рады</p>
-            </li>
-            <li><span class="photo-gallery__like-icon">like</span></li>
-            <li><span class="photo-gallery__like">Нравится:</span></li>
-            <li><span class="photo-gallery__number-of-likes">666</span></li>
+            <li class="photo-gallery__user-name">Антон</li>
+            <li class="photo-gallery__post-time">(12 часов назад)</li>
+            <li class="photo-gallery__description-text">Соседи будут рады</li>
+            <li class="photo-gallery__like-icon">like</li>
+            <li class="photo-gallery__like">Нравится:</li>
+            <li class="photo-gallery__number-of-likes">666</li>
           </ul>
         </article>
         <article class="photo-gallery__item">
@@ -81,14 +69,12 @@
             <img src="http://placehold.it/280x180" width="280" height="180" alt="Фотография">
           </div>
           <ul class="photo-gallery__photo-description">
-            <li><span class="photo-gallery__user-name">Борис</span></li>
-            <li><span class="photo-gallery__post-time">(20 часов назад)</span></li>
-            <li>
-              <p class="photo-gallery__description-text">Сдесь могла быть ваша цитата о высоком и вечном.</p>
-            </li>
-            <li><span class="photo-gallery__like-icon">like</span></li>
-            <li><span class="photo-gallery__like">Нравится:</span></li>
-            <li><span class="photo-gallery__number-of-likes">215</span></li>
+            <li class="photo-gallery__user-name">Борис</li>
+            <li class="photo-gallery__post-time">(20 часов назад)</li>
+            <li class="photo-gallery__description-text">Сдесь могла быть ваша цитата о высоком и вечном.</li>
+            <li class="photo-gallery__like-icon">like</li>
+            <li class="photo-gallery__like">Нравится:</li>
+            <li class="photo-gallery__number-of-likes">215</li>
           </ul>
         </article>
         <article class="photo-gallery__item">
@@ -96,14 +82,12 @@
             <img src="http://placehold.it/280x180" width="280" height="180" alt="Фотография">
           </div>
           <ul class="photo-gallery__photo-description">
-            <li><span class="photo-gallery__user-name">Сергей</span></li>
-            <li><span class="photo-gallery__post-time">(25 часов назад)</span></li>
-            <li>
-              <p class="photo-gallery__description-text">Самая кубанская в мире!</p>
-            </li>
-            <li><span class="photo-gallery__like-icon">like</span></li>
-            <li><span class="photo-gallery__like">Нравится:</span></li>
-            <li><span class="photo-gallery__number-of-likes">4</span></li>
+            <li class="photo-gallery__user-name">Сергей</li>
+            <li class="photo-gallery__post-time">(25 часов назад)</li>
+            <li class="photo-gallery__description-text">Самая кубанская в мире!</li>
+            <li class="photo-gallery__like-icon">like</li>
+            <li class="photo-gallery__like">Нравится:</li>
+            <li class="photo-gallery__number-of-likes">4</li>
           </ul>
         </article>
         <article class="photo-gallery__item">
@@ -111,14 +95,12 @@
             <img src="http://placehold.it/280x180" width="280" height="180" alt="Фотография">
           </div>
           <ul class="photo-gallery__photo-description">
-            <li><span class="photo-gallery__user-name">Максим</span></li>
-            <li><span class="photo-gallery__post-time">(40 часов назад)</span></li>
-            <li>
-              <p class="photo-gallery__description-text">Где снег-то?</p>
-            </li>
-            <li><span class="photo-gallery__like-icon">like</span></li>
-            <li><span class="photo-gallery__like">Нравится:</span></li>
-            <li><span class="photo-gallery__number-of-likes">150</span></li>
+            <li class="photo-gallery__user-name">Максим</li>
+            <li class="photo-gallery__post-time">(40 часов назад)</li>
+            <li class="photo-gallery__description-text">Где снег-то?</li>
+            <li class="photo-gallery__like-icon">like</li>
+            <li class="photo-gallery__like">Нравится:</li>
+            <li class="photo-gallery__number-of-likes">150</li>
           </ul>
         </article>
         <article class="photo-gallery__item">
@@ -126,37 +108,35 @@
             <img src="http://placehold.it/280x180" width="280" height="180" alt="Фотография">
           </div>
           <ul class="photo-gallery__photo-description">
-            <li><span class="photo-gallery__user-name">Надежда</span></li>
-            <li><span class="photo-gallery__post-time">(45 часов назад)</span></li>
-            <li>
-              <p class="photo-gallery__description-text">Всем GM и взаимные лайки!</p>
-            </li>
-            <li><span class="photo-gallery__like-icon">like</span></li>
-            <li><span class="photo-gallery__like">Нравится:</span></li>
-            <li><span class="photo-gallery__number-of-likes">2560</span></li>
+            <li class="photo-gallery__user-name">Надежда</li>
+            <li class="photo-gallery__post-time">(45 часов назад)</li>
+            <li class="photo-gallery__description-text">Всем GM и взаимные лайки!</li>
+            <li class="photo-gallery__like-icon">like</li>
+            <li class="photo-gallery__like">Нравится:</li>
+            <li class="photo-gallery__number-of-likes">2560</li>
           </ul>
         </article>
       </div>
     </section>
-    <div class="photo-gallery__form-slogan">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</div>
     <form class="photo-uploader" action="/echo" method="post">
+      <p class="photo-uploader__form-title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
       <div class="photo-uploader__photography">
         <img src="http://placehold.it/280x374" width="280" height="374" alt="Загружаемое фото">
       </div>
       <ul class="photo-uploader__range-filters">
-        <li>
+        <li class="photo-uploader__li">
           <label class="photo-uploader__crop-icon">Обрезать
-            <input type="range" min="1" max="10">
+            <input class="photo-uploader__input" type="range" min="1" max="10">
           </label>
         </li>
-        <li>
+        <li class="photo-uploader__li">
           <label class="photo-uploader__fill-icon">Заполнить
-            <input type="range" min="1" max="10">
+            <input class="photo-uploader__input" type="range" min="1" max="10">
           </label>
         </li>
-        <li>
+        <li class="photo-uploader__li">
           <label class="photo-uploader__contrast-icon">Контраст
-            <input type="range" min="1" max="10">
+            <input class="photo-uploader__input" type="range" min="1" max="10">
           </label>
         </li>
       </ul>
@@ -169,9 +149,7 @@
 
   <footer class="page-footer">
     <section class="page-footer__social">
-      <div class="page-footer__logo">
-        <img src="http://placehold.it/147x40" width="147" height="40" alt="Pink">
-      </div>
+      <img class="page-footer__logo" src="http://placehold.it/147x40" width="147" height="40" alt="Pink">
       <div class="social-links">
         <ul class="social-links__lists">
           <li class="social-links__list"><a class="social-links__link social-links__link--tw" href="https://twitter.com/htmlacademy_ru">Мы в Твиттере</a></li>
